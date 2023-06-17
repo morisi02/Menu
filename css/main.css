@@ -1,0 +1,82 @@
+/************ TUTTO *****/
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.6rem;
+    height: 200vh;
+}
+
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 15px;
+    background-color: rebeccapurple;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+
+img {
+	width: 100%;
+}
+
+.title {
+	font-size: 2.2rem;
+}
+
+main {
+	min-height: calc(100vh - 138.5px - 104px);
+}
+
+
+.hr-scroll{
+	z-index: 10000;
+	color: #8e433e;
+	position: fixed;
+	border: 3px solid;
+	opacity: 1;
+	bottom: 0;
+}
+
+/* NAVBAR */
+
+.nav-section{
+    height: 20vh;
+}
+
+.navbar{
+    position: fixed;
+    height: 10vh;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(59, 50, 43, 0.789);
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 50px;
+}
+
+
+
+
+
+/* PIATTI */
+
+.titolo{
+	background-color: #8e433e;
+}
+
+.prezzo{
+	background-color: rgb(54, 104, 149);
+}
