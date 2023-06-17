@@ -5,7 +5,7 @@ function printInHTML(lines) {
       var line = lines[i];
       var parts = line.split(',');
   
-      if (parts.length === 2) {
+      if (parts.length>1) {
         var title = parts[0].trim();
         var price = parts[1].trim();
 
@@ -16,7 +16,7 @@ function printInHTML(lines) {
 
         titleElement.addClass('titolo');
         priceElement.addClass('prezzo');
-        
+
         outputElement.append(titleElement);
         outputElement.append(priceElement);
       }
